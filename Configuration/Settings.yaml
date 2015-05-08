@@ -3,8 +3,9 @@ TYPO3:
     error:
       exceptionHandler:
         renderingGroups:
-          notFoundExceptions:
+          accessDeniedException:
+            matchingExceptionClassNames: ['TYPO3\Flow\Security\Exception\AccessDeniedException', 'TYPO3\Flow\Security\Exception\NoTokensAuthenticatedException']
             options:
               templatePathAndFilename: 'resource://MOC.NotFound/Private/Templates/404.html'
               variables:
-                path: '404'
+                path: 'en/accessdenied.html'
