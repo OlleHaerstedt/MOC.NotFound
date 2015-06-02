@@ -8,4 +8,4 @@ TYPO3:
             options:
               templatePathAndFilename: 'resource://MOC.NotFound/Private/Templates/404.html'
               variables:
-                path: 'en/accessdenied.html'
+                path: 'accessdenied.html'
